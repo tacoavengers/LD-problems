@@ -1,5 +1,6 @@
 # LD-problems
 ```
+# 1
 def testMe(nums):
     # return a list with the following values [3,4,5,6]
     
@@ -14,6 +15,7 @@ print(testMe(nums))
 ```
 -------
 ```
+# 2
 def testMe(nums):
     # return a list with the following values ["3","4","5","6"]
     
@@ -28,6 +30,7 @@ print(testMe(nums))
 ```
 --------
 ```
+# 3
 def testMe(nums):
     # return a list of numbers greater than 6
     
@@ -42,6 +45,7 @@ print(testMe(nums))
 ```
 -------
 ```
+# 4
 def testMe(nums):
     # return a list of numbers greater than 6
     
@@ -56,6 +60,7 @@ print(testMe(nums))
 ```
 ------
 ```
+# 5
 def testMe(nums):
     # return a range of numbers from 7 to 23
     
@@ -66,6 +71,7 @@ print(testMe(nums))
 ```
 -----
 ```
+# 6
 def testMe(nums):
     # if the last number is 76, return "Yes!", else return -1
     
@@ -79,6 +85,7 @@ print(testMe(nums))
 ```
 -------
 ```
+# 7
 def testMe(nums):
     # return a list of only odd numbers
     
