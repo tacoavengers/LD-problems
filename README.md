@@ -55,5 +55,13 @@ nums = ["4","5","6","8","9"]
 print(testMe(nums))
 ```
 ------
-
+```
+def testMe(nums):
+    # return a range of numbers from 7 to 23
+    
+    return (nums[4:9])
+    
+nums = [3,4,5,6,7,8,11,14,23,45,76]
+print(testMe(nums))
+```
 
