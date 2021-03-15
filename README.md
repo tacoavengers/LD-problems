@@ -41,4 +41,19 @@ nums = [4,5,6,8,9]
 print(testMe(nums))
 ```
 -------
+```
+def testMe(nums):
+    # return a list of numbers greater than 6
+    
+    lst = []
+    for i in nums:
+        if int(i) > 6:
+            lst.append(i)
+    return lst
+    
+nums = ["4","5","6","8","9"]
+print(testMe(nums))
+```
+------
+
 
