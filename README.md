@@ -64,4 +64,16 @@ def testMe(nums):
 nums = [3,4,5,6,7,8,11,14,23,45,76]
 print(testMe(nums))
 ```
-
+-----
+```
+def testMe(nums):
+    # if the last number is 76, return "Yes!", else return -1
+    
+    for i in nums:
+        if nums[-1] == 76:
+            return "Yes"
+    return -1
+    
+nums = [3,4,5,6,7,8,11,14,23,45,76]
+print(testMe(nums))
+```
