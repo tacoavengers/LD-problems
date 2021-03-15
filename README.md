@@ -120,3 +120,33 @@ def testMe(nums):
 nums = [3,4,5,6]
 print(testMe(nums))
 ```
+------
+```
+"""
+# 9
+
+Return the number (count) of vowels in the given string.
+
+We will consider `a, e, i, o, u as vowels for this challenge (but not y).
+
+The input string will only consist of lower case letters and/or spaces.
+
+# figure out how to search a string
+
+"""
+def get_count(input_str):
+
+    # Provides a count for each vowel
+    
+    vowels = "aeiou"
+    vowel_counts = {}
+    # newStr = input_str
+
+    for vowel in vowels:
+        count = input_str.count(vowel)
+        vowel_counts[vowel] = count
+
+    print(vowel_counts)
+
+get_count("there is a brown cow in the barn right now")
+```
