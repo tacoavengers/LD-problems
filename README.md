@@ -77,3 +77,20 @@ def testMe(nums):
 nums = [3,4,5,6,7,8,11,14,23,45,76]
 print(testMe(nums))
 ```
+-------
+```
+def testMe(nums):
+    # return a list of only odd numbers
+    
+    lst = []
+    
+    for i in nums:
+        if i % 2 == 0:
+            continue
+        else:
+            lst.append(i)
+    return lst
+    
+nums = [3,4,5,6,7,8,11,14,23,45,76]
+print(testMe(nums))
+```
