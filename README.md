@@ -103,6 +103,7 @@ print(testMe(nums))
 ```
 ------
 ```
+# 8
 def testMe(nums):
     # get the key and value of the elements in the list
     # return ['key:value', 'key:value'] or [(key:value), (key:value)]
