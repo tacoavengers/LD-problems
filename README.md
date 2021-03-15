@@ -101,3 +101,21 @@ def testMe(nums):
 nums = [3,4,5,6,7,8,11,14,23,45,76]
 print(testMe(nums))
 ```
+------
+```
+def testMe(nums):
+    # get the key and value of the elements in the list
+    # return ['key:value', 'key:value'] or [(key:value), (key:value)]
+    
+    lst = []
+    
+    for key, value in enumerate(nums):
+        # lst.append(f"{key}:{value}")
+        test = (key,value)
+        lst.append(test)
+
+    return lst
+    
+nums = [3,4,5,6]
+print(testMe(nums))
+```
